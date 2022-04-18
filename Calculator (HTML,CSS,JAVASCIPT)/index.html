@@ -1,0 +1,55 @@
+<!--Author: Mohammed Yunus Noor Mohammed Jalgaonkar-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="anime_background">
+   <DIV class="anime_background">
+        <table class="Table">
+            <tr><td colspan="5" ><input class="displaybox1" type="text" id="result"></tr>
+                <td colspan="5" ><input class="displaybox2" type="text" id="dd"></td>
+            </tr>
+            <tr>
+                <td><button class="button" onclick="clearscreen()">C</button></td>
+                <td><button class="button" onclick="del()">del</button></td> 
+                <td><button class="button"value = "/" onclick = "display('/')">÷</button></td>
+                <td><button class="button"value = "*" onclick = "display('*')">x</button></td> 
+
+            </tr>
+            <tr>
+                <td><button class="button" value = "7" onclick = "display('7')">7</button></td> 
+                <td><button class="button" value = "8" onclick = "display('8')">8</button></td> 
+                <td><button class="button" value = "9" onclick = "display('9')">9</button></td> 
+                <td><button class="button" value = "+" onclick = "display('+')">+</button></td> 
+            </tr>
+            <tr>
+                <td><button class="button" value = "4" onclick = "display('4')">4</button></td> 
+                <td><button class="button"value = "5" onclick = "display('5')">5</button></td> 
+                <td><button class="button" value = "6" onclick = "display('6')">6</button></td> 
+                <td><button class="button" value = "-" onclick = "display('-')">-</button></td> 
+            </tr>
+            <tr>
+                <td><button class="button" value = "1" onclick = "display('1')">1</button></td> 
+                <td><button class="button" value = "2" onclick = "display('2')">2</button></td> 
+                <td><button class="button" value = "3" onclick = "display('3')">3</button></td> 
+                <td rowspan="2"><button class="button" id="enter" onclick="calculate()">=</button></td> 
+
+            </tr>
+            <tr>
+                <td colspan="2"><button class="button" id="zero" value = "0" onclick = "display('0')">0</button></td> 
+                <td ><button class="button" value = "."  id="dot" onclick = "display('.')">.</button></td> 
+                
+            </tr>
+        </table>
+    </DIV>     
+    <script src="script.js"></script>
+</body>
+</html>
